@@ -15,5 +15,5 @@ Currently, two official plugins are available:
 + Select framework: React
 + Select a variant: Javascript
 - cd my-react-app
-- npm install
+- npm i
 - RUN PROGRAME: npm run dev
