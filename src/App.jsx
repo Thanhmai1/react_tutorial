@@ -1,9 +1,26 @@
-import Header from './Header.jsx';
-import Footer from './Footer.jsx';
-import Food from './Food.jsx'
+// import Header from './Header.jsx';
+// import Footer from './Footer.jsx';
+// import Food from './Food.jsx'
+import Card from "./Card_Components/Card.jsx"
+function App() {  
+  return (
+    <>
+      {/* <Header/>
+      <Food/>
+      <Footer/> */}
+      <Card/>
+      <Card/>
+      <Card/>
+    </>
+  );
+}
 
-function App() {
-  // const [count, setCount] = useState(0)
+export default App
+
+
+
+
+// const [count, setCount] = useState(0)
 
   // return (
   //   <>
@@ -29,13 +46,3 @@ function App() {
   //     </p>
   //   </>
   // )
-  return (
-    <>
-      <Header/>
-      <Food/>
-      <Footer/>
-    </>
-  );
-}
-
-export default App

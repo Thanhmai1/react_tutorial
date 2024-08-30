@@ -66,3 +66,27 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+.card img {  
+  border-radius: 50%;
+  width: 100px;
+  height: 150px;
+}
+
+.card {
+  padding: 20px;
+  text-align: center;
+  display: inline-block;
+  box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
+  max-width: 250px;
+}
+
+.card h2 {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  color: hsl(0, 0%, 100%);
+}
+
+.card p {
+  font-family: Arial, sans-serif;
+  color: hsl(0, 0%, 75%);
+}
