@@ -2,7 +2,8 @@
 // import Footer from './Footer.jsx';
 // import Food from './Food.jsx'
 // import Card from "./Card_Components/Card.jsx"
-import Button from "./Add_CSS_Style/Button.jsx"
+// import Button from "./Add_CSS_Style/Button.jsx"
+import Student from './props/Student.jsx'
 function App() {  
   return (
     <>
@@ -12,8 +13,11 @@ function App() {
       {/* <Card/>
       <Card/>
       <Card/> */}
-      <Button />
-    </>
+      {/* <Button /> */}
+      <Student name="Mai" age={12} isStudent={true}/>
+      <Student name="Tung" age={30} isStudent={false}/>
+      <Student />
+    </>    
   );
 }
 
