@@ -3,7 +3,9 @@
 // import Food from './Food.jsx'
 // import Card from "./Card_Components/Card.jsx"
 // import Button from "./Add_CSS_Style/Button.jsx"
-import Student from './props/Student.jsx'
+// import User_greeting from './conditional_rendering/User_greeting.jsx';
+// import Student from './props/Student.jsx'
+import Button from '../click_events/Button.jsx'
 function App() {  
   return (
     <>
@@ -14,9 +16,11 @@ function App() {
       <Card/>
       <Card/> */}
       {/* <Button /> */}
-      <Student name="Mai" age={12} isStudent={true}/>
+      {/* <Student name="Mai" age={12} isStudent={true}/>
       <Student name="Tung" age={30} isStudent={false}/>
-      <Student />
+      <Student /> */}
+      {/* <User_greeting isLoggedIn= {true} username= "ThanhMai"/> */}
+      <Button />
     </>    
   );
 }
